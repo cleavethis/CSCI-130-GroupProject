@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: peachpuff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+}
+
+.welcome {
+
+    font-weight: 700;
+}
+
+.play-button, .rules-button, .contact-button{
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    padding: 5px;
+    margin: 10px;
+    width: 100px;
+
+}
+
+.main-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
