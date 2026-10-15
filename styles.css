@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
 }
 
 a {
@@ -14,37 +16,42 @@ a {
     height: 75px;
 }
 
-.welcome {
-
-    font-weight: 700;
-}
-
 .play-button, .rules-button, .contact-button{
     display: flex;
     justify-content: center;
-    background-color: blue;
+    background-color: rgb(225, 255, 0);
     padding: 5px;
     margin: 10px;
     width: 100px;
     border-radius: 10px;
+}
 
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .main-menu {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+  
     align-items: center;
     background-color: powderblue;
     width: 175px;
     border-radius: 15px;
-   
 }
 
 .menu-wrapper {
     display: flex;
     justify-content: center;
-    margin: 20px;
-    
+    margin: 20px;   
 }
 
+#container {
+    flex: 1;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
