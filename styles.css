@@ -89,3 +89,12 @@ body {
 .caleb img {
     border-radius: 1em;
 }
+
+.footer-links {
+    background-color: lime;
+    display: flex;
+    width: 90vw;
+    justify-content: space-evenly;
+    margin: 10px;
+    border-radius: 1em;
+}
