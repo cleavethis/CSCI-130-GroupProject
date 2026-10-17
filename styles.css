@@ -19,7 +19,7 @@ a {
 .play-button, .rules-button, .contact-button{
     display: flex;
     justify-content: center;
-    background-color: rgb(225, 255, 0);
+    background-color: gray;
     padding: 5px;
     margin: 10px;
     width: 100px;
@@ -37,7 +37,7 @@ body {
     flex-direction: column;
   
     align-items: center;
-    background-color: powderblue;
+    background-color: lime;
     width: 175px;
     border-radius: 15px;
 }
@@ -54,4 +54,38 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.contact-container {
+    background-color: black;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-title {
+    color: gray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-bottom: solid lime 1px;
+}
+
+.cards {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    gap: 5em;
+    border-radius: 1em;
+}
+
+.rick, .caleb {
+    color: lime;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rick img,
+.caleb img {
+    border-radius: 1em;
 }
