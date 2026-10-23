@@ -14,9 +14,10 @@ a {
     justify-content: center;
     align-items: center;
     height: 75px;
+    position: relative;
 }
 
-.play-button, .rules-button, .contact-button{
+.play-button, .rules-button, .contact-button, .leaderboard-button{
     display: flex;
     justify-content: center;
     background-color: rgb(225, 255, 0);
@@ -24,12 +25,27 @@ a {
     margin: 10px;
     width: 100px;
     border-radius: 10px;
+    cursor: pointer;
 }
+.play-button:hover, .rules-button:hover, .contact-button:hover, .leaderboard-button:hover {
+    background-color: rgb(85, 207, 28);
+}
+
 
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    background-color: black;
+    color: white;
+}
+body.light-mode {
+    border-color: rgba(0, 0, 0, 0.3);
+    color: black;
+}
+body.light-mode #container {
+    background-color: white;
+    border-color: rgba(255, 255, 255, 0.3);
 }
 
 .main-menu {
@@ -54,4 +70,18 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#toggleModeButton {
+    position: absolute;
+    right: 20px;
+    padding: 5px 10px;
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+#toggleModeButton:hover {
+    background-color: rgba(0, 0, 0, 0.1);
 }
