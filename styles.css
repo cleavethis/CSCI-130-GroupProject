@@ -120,6 +120,7 @@ body.light-mode #container {
     border-radius: 1em;
 }
 
+/*Used mostly to connect to each html files*/
 .footer-links {
     background-color: lime;
     display: flex;
@@ -127,4 +128,75 @@ body.light-mode #container {
     justify-content: space-evenly;
     margin: 10px;
     border-radius: 1em;
+}
+
+.rules-container {
+    background-color: black;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rules-section{
+    margin-bottom: 25px;
+}
+
+.rules-section h2 {
+    color: gray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-bottom: solid lime 1px;
+}
+
+.rules-section ol,
+.rules-section ul {
+    padding-left: 20px;
+}
+
+.color-rule{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.example-tile{
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    flex-shrink: 0;
+}
+
+.correct {
+    background-color: #538d4e;
+}
+
+.present {
+    background-color: #b59f3b;
+}
+
+.absent {
+    background-color: #787c7e;
+}
+
+.rules-section table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.rules-section th,
+.rules-section td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.rules-section th {
+    background-color: rgb(28, 116, 28);
 }

@@ -18,3 +18,8 @@ https://www.youtube.com/watch?v=j7OhcuZQ-q8 (Build a Wordle Clone using HTML, CS
 - Made every html file have the same background-color and h1 style (before it was white)
 - Added a few emojis to bring our wordle to life or just to stand out a bit
 
+10/30/2026 | v0.1 | 12:00 AM
+- Added rules in the rules section and some flare in there as well
+- Previously added a few contact informations with photos of both team memebrs
+- Added more in the css file that connects to the rules file
+- play.html connects to main page, play, and rules (might need to tweak a bit to connect to leaderboard or contact list)

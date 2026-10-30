@@ -9,10 +9,78 @@
 <body>
     <div class="header">
         <h1 class="welcome">How to Play Wordle Clone🤔💭</h1>
-        <button id="toggleModeButton">Toggle Light/Dark Mode</button>
     </div>
     <div id="container">
-
-    
+        <div class="rules">
+            <h2>Rules📋:</h2>
+            <section class="rules-section">
+            <p>
+                Guess the hidden 5-letter word in 6 tries. Each guess must be a valid 5-letter word. 
+                After each guess, the color of the tiles will change to show how close your guess was to the word.
+            </p>
+            </section>
+            <section class="rules-section">
+                <h2>How to Play</h2>
+                <ol>
+                    <li>Enter a 5-letter word and submit your guess.</li>
+                    <li>The color of the tiles will change to indicate how close your guess was to the hidden word.</li>
+                    <li>Green indicates the letter is in the correct position, 
+                        yellow indicates the letter is in the word but in the wrong position, 
+                        and gray indicates the letter is not in the word at all.</li>
+                    <li>You have 6 tries to guess the hidden word correctly.</li>
+                    <li>If you guess the word correctly within 6 tries, you win! If not, you lose and can try again.</li>
+                </ol>
+            </section>
+            <div class="color-rule">
+                <div class="example-tile correct">A</div>
+                <p>Green: Correct letter in the correct position</p>
+            </div>
+            <div class="color-rule">
+                <div class="example-tile present">B</div>
+                <p>Yellow: Correct letter in the wrong position</p>
+            </div>
+            <div class="color-rule">
+                <div class="example-tile absent">C</div>
+                <p>Gray: Letter is not in the word at all</p>
+            </div>
+            <section class="rules-section">
+                <h2>Repeated Letters🔁</h2>
+                <p>
+                    If the hidden word contains a repeated letter, 
+                    you will see the letter highlighted in yellow for each occurrence.
+                </p>
+            </section>
+            <section class="rules-section">
+                <h2>Scoring💯</h2>
+                <p>
+                    You earn points based on how quickly you guess the word. 
+                    The faster you guess it, the more points you earn.
+                </p>
+                <table>
+                    <tr>
+                        <th>Number of Tries</th>
+                        <th>Points</th>
+                    </tr>
+                    <tr><td>1st Attempt</td><td>1024</td></tr>
+                    <tr><td>2nd Attempt</td><td>512</td></tr>
+                    <tr><td>3rd Attempt</td><td>256</td></tr>
+                    <tr><td>4th Attempt</td><td>128</td></tr>
+                    <tr><td>5th Attempt</td><td>64</td></tr>
+                    <tr><td>6th Attempt</td><td>32</td></tr>
+                </table>
+            </section>
+            <section class="rules-section">
+                <h2>End of the Game🎉</h2>
+                <p>
+                    The game ends when you either guess the word correctly or exhaust all 6 attempts.
+                </p>
+            </section>
+            <div class="footer-links">
+                <a href="./index.html">Home</a>
+                <a href="./play.html">Play</a>
+                <a href="./rules.html">Rules</a>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
